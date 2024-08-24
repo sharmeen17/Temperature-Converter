@@ -1,0 +1,62 @@
+<!-- hw task temp conv -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temp conv</title>
+    <link rel="stylesheet" href="temp.css">
+
+</head>
+
+<body>
+    <div class="bdy">
+        <div class="card">
+            <img src="thermometer.jpg" class="img">
+        </div>
+        <div class="temp">
+            <h1>Temperature Converter</h1>
+        </div>
+
+        <div class="parameter">
+            <h2 class="far" id="farunit">Fahrenhiet</h2>
+
+            
+
+            <button class="switch" onclick="switchUnit()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                  </svg>
+            </button>
+            <h2 class="cel" id="celunit">Celsius</h2>
+        </div>
+
+        <div class="content">
+            <input placeholder="Enter temperature value" type="number" id="tempInput" class="fval">
+            <button onclick="convertTemperature()" class="sub">SUBMIT</button>
+
+           
+
+        </div>
+ 
+        <div class="ansbox">
+            <p><b>Answer:</b></p>
+            <p id="answer" class="ans"></p>
+        </div>
+        <div class="formula">
+            <p>Formula:(0°C * 9/5) + 32 = 32°F</p>
+        </div>
+
+        <script src="temp.js"></script>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
