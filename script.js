@@ -1,19 +1,3 @@
-// //temperature converter
-
-// console.log(document)
-
-// function celsiusToFahrenhiet()
-// {
-//   var temp = document.getElementById("tempInput").value;
-//   document.getElementById("answer").innerText = temp * (9/5) + 32;
-// }
-
-// function switchUnit()
-// {
-//     var far = farunit;
-//     var cel = celunit;
-
-// }
 
 let isFahrenheit = true; // Default is Fahrenheit
 
